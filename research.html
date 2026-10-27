@@ -41,6 +41,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="research.html" aria-current="page">Research</a></li>
           <li><a href="projects.html">Projects</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
           <li><a href="cv.pdf">CV</a></li>
         </ul>
       </nav>
@@ -57,7 +58,7 @@
         <li>
           <span class="pub-title">Pellet Printing for Soft Robotic Devices</span>
           <span class="pub-authors">Y. Wu, J.-H. Chen, <strong>A. Olivares</strong>, K. Kostak, S. Pedicone, S. Kendre, M. Nemitz.</span>
-          <span class="pub-venue">Advanced Science.</span>
+          <span class="pub-venue">Advanced Science</span>, 13(30), e24237 (2026).
           <div class="pub-links">
             <a class="pill" href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202524237">Paper</a>
             <a class="pill" href="https://engrxiv.org/preprint/view/4857">Preprint</a>
@@ -75,8 +76,21 @@
         <span class="tag">M.S. thesis, in progress</span>
         <h3>Injection molding of soft robotic components using a pellet extrusion head</h3>
         <p class="where"><a href="https://sites.tufts.edu/nemitz/">Nemitz Robotics Group</a>, Tufts University. Advisor: Prof. Markus Nemitz.</p>
-        <p>This thesis evaluates injection molding with a pellet extrusion head as a low-cost method for fabricating simple soft robotic components. The process targets ultra-soft elastomers that are difficult to 3D print directly, with part production times on the order of minutes. The system currently molds benchmark geometries, including cubes and tensile dog-bone specimens, and is being extended to more complex parts and additional materials. Molded parts are benchmarked against those from a commercial injection molding machine.</p>
-        <p>Planned work includes an interchangeable PLA extrusion head that would allow the same system to print its own molds, as well as image-based characterization of molded parts. The project supports the group’s broader goal of low-cost landmine-detecting robots that can be produced with widely available 3D printers.</p>
+        <p>This thesis evaluates injection molding with a pellet extrusion head as a low-cost method for fabricating simple soft robotic components from ultra-soft thermoplastic elastomers that are difficult to 3D print directly. The pellet extruder fills 3D-printed molds directly, producing parts in minutes, and the system currently molds benchmark cubes and tensile dog-bone specimens. Molded parts are benchmarked against those from a commercial injection molding machine.</p>
+        <p>Current trials use SEBS pellets (Shore 34A) in SLA-printed cube molds. The best parameters so far, an extrusion temperature of 250 °C and an extrusion speed of 42 mm/s, produce smooth upper regions, but jetting leaves coiled material at the bottom of the part where the extruded strand does not fully merge. To iterate faster on mold geometry, I designed reusable SLA mold caps that fit onto interchangeable PLA molds. Next steps include inlet geometries that bring the melt into earlier contact with the mold wall, TPU grades (60A and 70A) that may merge more readily, and lowering the mold during filling to build pressure at the bottom of the part.</p>
+        <p>Longer term, an interchangeable PLA extrusion head would allow the same system to print its own molds. The project supports the group’s broader goal of low-cost landmine-detecting robots that can be produced with widely available 3D printers.</p>
+        <div class="gallery one">
+          <figure>
+            <img src="thesis-setup.jpg" alt="Pellet extrusion head filling a 3D-printed mold, and a molded cube inside an opened mold">
+            <figcaption>Pellet extrusion head filling a mold (left) and a molded cube in its mold (right).</figcaption>
+          </figure>
+        </div>
+        <div class="gallery one">
+          <figure>
+            <img src="thesis-cubes.jpg" alt="Five molded SEBS cubes viewed from the front and from the bottom">
+            <figcaption>Molded SEBS 34A cubes, front view (top row) and underside (bottom row). The coils on the underside come from jetting during filling.</figcaption>
+          </figure>
+        </div>
       </div>
     </article>
 
@@ -88,11 +102,11 @@
         <p class="where"><a href="https://sites.tufts.edu/nemitz/">Nemitz Robotics Group</a>, Tufts University. With Yijia Wu and Prof. Markus P. Nemitz.</p>
         <div class="links-row"><a class="pill" href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202524237">Published in Advanced Science</a></div>
         <p>Most soft robots are made either by casting soft silicones or by filament 3D printing, which is limited to much stiffer materials. This project explored fused granulate fabrication (FGF), or pellet-based 3D printing, as a low-cost alternative that is as simple as filament printing but works with materials nearly as soft as cast silicone. Using the group’s pellet printer, I evaluated printer performance through mechanical testing and demonstrations.</p>
-        <p>For the group’s paper, I was responsible for the comparison between 3D-printed and cast PneuNet actuators, including fabricating the cast benchmark actuators and setting up tensile and inflation-cycle testing. The printed PneuNets kept their structural integrity over 100,000 inflation cycles, and the team printed a soft robotic fish with integrated pneumatic actuators that required no post-assembly.</p>
+        <p>For the group’s paper, I was responsible for the comparison between 3D-printed and cast PneuNet actuators, including fabricating the cast benchmark actuators and setting up tensile and inflation-cycle testing. The printed PneuNets kept their structural integrity over 100,000 inflation cycles. I also designed and modeled a soft robotic fish in CAD, including its internal pneumatic chambers, which was printed as a single part with no post-assembly.</p>
         <div class="gallery one">
           <figure>
-            <img src="research-fish.jpg" alt="Pellet-printed soft robotic fish shown deflated, inflated, and as a CAD model">
-            <figcaption>Pellet-printed soft robotic fish at 0 and 40 kPa, with its CAD model.</figcaption>
+            <img src="research-fish.jpg" alt="Soft robotic fish designed by Ariana Olivares, shown deflated, inflated, and as a CAD model">
+            <figcaption>Soft robotic fish I designed in CAD, pellet-printed and shown at 0 and 40 kPa.</figcaption>
           </figure>
         </div>
         <div class="gallery one">
@@ -113,7 +127,7 @@
       <div>
         <span class="tag">Stanford SURF</span>
         <h3>Freestanding magneto-mechanical metamaterials</h3>
-        <p class="where">Zhao Lab, Stanford University. With Jay Sim, Sarah Hwang, and Prof. Renee Zhao.</p>
+        <p class="where">Soft Intelligent Materials Lab (Zhao Lab), Stanford University. With Jay Sim, Sarah Hwang, and Prof. Renee Zhao.</p>
         <p>Studied freestanding magneto-mechanical metamaterials with out-of-plane magnetization. I fabricated silicone and NdFeB unit cells in 3D-printed molds, magnetized them at controlled angles using custom fixtures in a 1.5 T impulse field, and assembled them into arrays that rise into 3D shapes under a magnetic field. Measured shapes, extracted with a MATLAB image-processing pipeline, were compared against Abaqus simulations, which captured the dominant folding behavior.</p>
         <p>The project was conducted in collaboration with Prof. Wei Chen’s group at Northwestern University, toward design-optimized metamaterials that morph from flat sheets into complex 3D geometries.</p>
         <div class="gallery">
@@ -138,7 +152,7 @@
       <div>
         <span class="tag">Stanford SURF</span>
         <h3>Design and actuation of conformal magneto-metamaterials</h3>
-        <p class="where">Zhao Lab, Stanford University. With Jay Sim, Sarah Hwang, and Prof. Renee Zhao.</p>
+        <p class="where">Soft Intelligent Materials Lab (Zhao Lab), Stanford University. With Jay Sim, Sarah Hwang, and Prof. Renee Zhao.</p>
         <div class="links-row"><a class="pill" href="https://engineering.stanford.edu/SURF2024Cohort">Stanford SURF 2024 cohort</a></div>
         <p>Designed unit cells that allow magneto-metamaterial arrays to conform to cylindrical, concave, and convex substrates, then fabricated, magnetized, and assembled the arrays and actuated them between paired electromagnetic coils. I also tested a hollow array wrapped around a discrete iron-core coil, which reached peak actuation at 22.5 A. Experimental deformation closely matched Abaqus simulations, and the results showed how magnetic particle concentration and applied current shape the actuation.</p>
         <div class="gallery">
